@@ -1,0 +1,26 @@
+{
+  "name": "@lbucior/tiander-sdk",
+  "version": "0.0.1",
+  "description": "Auto-gen Client SDK",
+  "private": "true",
+  "license": "UNLICENSED",
+  "main": "index.ts",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "clean": "npx rimraf {*.d.ts,*.js,src/*.d.ts,src/*.js}",
+    "prepackage": "yarn clean",
+    "package": "tsc"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.8",
+    "@apollo/link-context": "^2.0.0-beta.3",
+    "@apollo/link-error": "^2.0.0-beta.3",
+    "@apollo/react-components": "^4.0.0",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
+    "graphql-tag": "^2.12.6",
+    "graphql-ws": "^5.14.3",
+    "zen-observable": "^0.10.0"
+  }
+}

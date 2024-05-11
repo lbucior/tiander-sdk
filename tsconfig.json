@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "declaration": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "jsx": "react"
+  },
+  "include": [
+    "*.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
